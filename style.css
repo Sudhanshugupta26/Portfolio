@@ -1,0 +1,277 @@
+/* General Styles */
+body {
+    font-family:cursive;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(backgroun4.webp);
+    background-color: #f4f4f4;
+    color:black;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: calc(1.5rem + 3vw);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: calc(1rem + 1vw);
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#home h1 {
+    font-size: calc(2rem + 1.5vw);
+}
+
+.intro h2 {
+    font-size: calc(1.5rem + 1vw);
+}
+
+.intro p {
+    font-size: calc(1.2rem + 0.8vw);
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: calc(1rem + 0.5vw);
+}
+
+.cta:hover {
+    background-color: #ff4500;
+}
+
+.photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.social-links img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 10px;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: #333;
+    color: white;
+}
+
+h2 {
+    font-size: calc(2rem + 1.5vw);
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: calc(1rem + 0.5vw);
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: calc(1rem + 0.5vw);
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #333;
+}
+
+.project {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project img, .project video {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project p {
+    font-size: calc(1rem + 0.5vw);
+    margin-top: 10px;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+.project button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: calc(1rem + 0.5vw);
+}
+
+.project button a {
+    color: white;
+    text-decoration: none;
+}
+
+.project button:hover {
+    background-color: #ff4500;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #333;
+    color: white;
+}
+
+.google-form-container {
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: calc(1.2rem + 2.5vw);
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    #home {
+        padding: 20px;
+    }
+
+    #home h1 {
+        font-size: calc(1.5rem + 1.2vw);
+    }
+
+    .intro h2 {
+        font-size: calc(1.2rem + 0.8vw);
+    }
+
+    .intro p {
+        font-size: calc(1rem + 0.5vw);
+    }
+
+    .photo img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cta {
+        font-size: calc(0.9rem + 0.5vw);
+    }
+
+    section {
+        padding: 20px 10px;
+        margin:10px;
+    }
+
+    h2 {
+        font-size: calc(1.5rem + 1.2vw);
+    }
+
+    p, ul li {
+        font-size: calc(0.9rem + 0.5vw);
+    }
+
+    .project img, .project video {
+        width: 100%;
+        height: auto;
+    }
+
+    .project p {
+        font-size: calc(0.9rem + 0.5vw);
+    }
+
+    .google-form-container iframe {
+        width: 100%;
+    }
+}
