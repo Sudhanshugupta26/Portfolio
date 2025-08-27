@@ -42,9 +42,9 @@ Beyond academics, I have a passion for sports, having won a silver medal in **Ka
 
 Feel free to reach out for collaborations, opportunities, or just a friendly chat!
 
-- 📧 Email: [sudhanshu29gupta@gmail.com](mailto:sudhanshu29gupta@gmail.com)
-- 🔗 LinkedIn: [in/sudhanshu2900](https://www.linkedin.com/in/sudhanshu2900)
-- 🐱 GitHub: [sudhanshu2900](https://github.com/sudhanshu2900)
+- 📧 Email: [guptasudhanshukumar1@gmail.com](mailto:guptasudhanshukumar1@gmail.com)
+- 🔗 LinkedIn: [in/sudhanshugupta26](https://www.linkedin.com/in/sudhanshugupta26)
+- 🐱 GitHub: [Sudhanshugupta26](https://github.com/Sudhanshugupta26)
 
 ---
 
